@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main {
+  width: 400px;
+  margin: 0px auto;
+}
+
+.video-preview {
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.video-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  outline: none;
+  background: white;
+  border: 1px solid rgb(159, 152, 152);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px
+}
+
+.recording-indicator {
+  padding: 0px 4px;
+}
